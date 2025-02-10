@@ -1,0 +1,155 @@
+.reset-password-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(135deg, #e0e0ff 0%, #d5d5ff 100%); */
+    padding: 20px;
+    position: relative;
+  }
+  
+  .reset-password-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .password-strength {
+    margin-top: 10px;
+  }
+  
+  .strength-meter {
+    height: 4px;
+    background-color: #ddd;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  
+  .strength-meter-fill {
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .strength-meter-fill.weak {
+    background-color: #ff4d4d;
+  }
+  .strength-meter-fill.medium {
+    background-color: #ffa500;
+  }
+  .strength-meter-fill.strong {
+    background-color: #00cc00;
+  }
+  
+  .error {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a4aff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #3a3aff;
+  }
+  
+  .footer-text {
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .background-icon {
+    position: fixed;
+    font-size: 48px;
+    color: rgba(74, 74, 255, 0.1);
+    animation: pulse 2s infinite;
+  }
+  
+  .background-icon.top-left {
+    top: 20px;
+    left: 20px;
+  }
+  
+  .background-icon.bottom-right {
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .reset-password-card {
+      padding: 20px;
+    }
+  }
+  
+  

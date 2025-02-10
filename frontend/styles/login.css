@@ -1,0 +1,110 @@
+/* Global CSS for Login Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login-card {
+    background-color: white;
+    padding: 2rem;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .login-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+  }
+  
+  .tab {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab.active {
+    color: #ffffff;
+    border-bottom: 2px solid #e3e3e3;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    gap: 1rem;
+    text-align: left;
+    padding-right: 30px;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .input-field {
+    width: 100%;
+
+    padding: 0.8rem;
+    border: 1px solid #200909;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .input-field:focus {
+    border-color: #000;
+    outline: none;
+  }
+
+  .showbtn{
+    background-color: lightsteelblue;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 30px;
+    
+  }
+  
+  .login-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 30px;
+
+  }
+  
+  .login-button:hover {
+    background-color: #333;
+  }
+  
